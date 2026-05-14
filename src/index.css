@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@400;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Orbitron", sans-serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+body {
+  @apply bg-zinc-950 text-white overflow-hidden antialiased;
+}
+
+.canvas-glow {
+  box-shadow: 0 0 30px rgba(16, 185, 129, 0.1);
+}
