@@ -1,20 +1,45 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Neon Breakout
 
-# Run and deploy your AI Studio app
+A polished, neon-styled arcade Breakout game built with React, Canvas API, and TypeScript.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/def3803d-a8eb-4d9f-8eec-0bcca09c6e65
+- **Neon Aesthetics**: Vibrant colors and glowing effects for a modern arcade feel.
+- **Smooth Gameplay**: Responsive paddle control with mouse or keyboard.
+- **Dynamic Physics**: Ball bounce speed and direction depend on where it hits the paddle.
+- **Responsive Design**: Adapts to different screen sizes.
 
-## Run Locally
+## How to Play
 
-**Prerequisites:**  Node.js
+1. **Move Paddle**: Use your mouse or the `Arrow Left` / `Arrow Right` keys.
+2. **Break Bricks**: Hit all the bricks with the ball to win.
+3. **Lives**: You start with 3 lives. Don't let the ball fall past your paddle!
 
+## Development
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm
+
+### Installation
+
+```bash
+npm install
+```
+
+### Running Locally
+
+```bash
+npm run dev
+```
+
+### Building for Production
+
+```bash
+npm run build
+```
+
+## Deployment
+
+This project is configured to automatically deploy to GitHub Pages via GitHub Actions whenever changes are pushed to the `main` branch.
